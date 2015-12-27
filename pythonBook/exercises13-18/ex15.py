@@ -1,5 +1,6 @@
 #ex15.py
 #This program will read a file that is given by the user
+#use file "ex15_example.txt"
 
 from sys import argv
 
