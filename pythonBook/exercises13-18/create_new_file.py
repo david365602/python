@@ -1,15 +1,25 @@
 #create_new_file.py
 
+#asks for the name of the file
 print "enter the name of the new file"
-filename = raw_input()
+name = raw_input()
 
-filename = open(filename, 'w+')
+#opens the file and makes it read and writable
+filename = open(name, 'w+')
 
+#asks for text that is to be added
 print "enter the text you want to give your file"
 txt = raw_input()
 
+#text is added to file
 filename.write(txt)
 
-#broken after this point
+#this part does not work just yet
+'''
 print "All done now. \nYour file reads"
+#broken after this point
 print filename.read()
+'''
+
+#closes file
+filename.close()
