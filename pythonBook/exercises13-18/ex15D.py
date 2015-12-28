@@ -7,9 +7,8 @@ txt = raw_input()
 
 #this line gives the file a variable
 #the w is important as it tells python that it will be used 
-#for writing
-filename = open(txt, 'w')
-filename.truncate()
+#for appending
+filename = open(txt, 'a')
 
 print "enter the words you want to add to the file"
 words = raw_input()
