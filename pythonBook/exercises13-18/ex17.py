@@ -1,5 +1,5 @@
 #ex17.py
-#copy files
+#copy files that EXIST
 
 from sys import argv
 from os.path import exists
