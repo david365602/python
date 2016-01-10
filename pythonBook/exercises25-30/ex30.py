@@ -23,5 +23,6 @@ if people > buses:
 	print "Alright, let's just take the buses."
 else: 
 	print "Fine. Let's stay home then."
+	
 
 
